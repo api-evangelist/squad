@@ -1,4 +1,16 @@
 aid: squad
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/squad.png
 name: Squad
 description: 'Squad is a company surfaced as a portfolio company of cowboy-ventures and added to the API
   Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead awaiting the enrichment
@@ -12,7 +24,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Unknown
@@ -22,3 +34,15 @@ maintainers:
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  note: 'Enrichment pass completed with real fetches/searches. Cowboy Ventures no longer
+    lists a portfolio company named Squad (consistent with an exit); the most plausible
+    match is the social screen-sharing app Squad (acquired by Twitter/X in 2020, now
+    defunct), which has no live API surface. A payments API at squadco.com surfaced
+    in search but was verified as HabariPay/GTCO (Nigeria) — an unrelated company, so
+    it was NOT attached to this stub. No correctly-attributed live API surface found;
+    no artifacts fabricated.'
